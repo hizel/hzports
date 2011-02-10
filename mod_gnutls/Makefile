@@ -20,12 +20,11 @@ LICENSE=	ASL
 
 MAKE_JOBS_SAFE=	yes
 
+CONFIGURE_ARGS+=--with-apxs="${APXS}" --sysconfdir=${PREFIX}/etc
 USE_BZIP2=	yes
 USE_APACHE=	2.0+
 HAS_CONFIGURE=		yes
-AP_GENPLIST=	yes
 
-SUB_FILES+=     pkg-message
 PORTDOCS=	LICENSE NOTICE README README.ENV
 
 post-install:
@@ -33,6 +32,5 @@ post-install:
 	${MKDIR} ${DOCSDIR}
 	${INSTALL_DATA} ${PORTDOCS:S|^|${WRKSRC}/|} ${DOCSDIR}
 .endif
-	@${CAT} ${PKGMESSAGE}
 
 .include <bsd.port.mk>
