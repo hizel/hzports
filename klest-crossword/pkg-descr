@@ -1,0 +1,25 @@
+Klest-crossword is a game for professional compiling, editing and easy 
+guessing american and classic the crossword puzzles.
+
+Supported features:
+        - Creating and guessing a crossword puzzle;
+        - Check correctness of guessing a crossword puzzle;
+        - Save state incompletely guessed crossword puzzle;
+        - Automatic creation of crossword puzzle grid (beta)
+        - Automatic compiling;
+        - Semi-automatic compiling;
+        - Creating and editing a dictionary;
+        - Adding / removing words from the dictionary;
+        - Saving created a crossword puzzle grid, as a template for the new;
+        - Editing the font crossword;
+        - Editing the grid of crossword puzzle;
+        - Export crossword: RTF, PDF, PostScript(*.ps), HTML, Text format 
+          Across Lite, JPG, JPEG, TIFF, BMP, XPM, PNG, XBM, PPM, 
+          OpenKlest(*.ok);
+        - Import crossword: Text format AcrossLite, OpenKlest(*.ok);
+        - Print crossword;
+        - Statistics;
+
+        - There are 2 dictionary: Russian to English and 31 000 to 41 000 words.
+
+WWW: http://sourceforge.net/projects/klest-crossword/
